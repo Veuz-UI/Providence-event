@@ -15,7 +15,9 @@
 </head>
 
 <body>
-
+<div class="loader-box">
+    <img src="images/loader.gif">
+</div>
     <div class="background-all">
         <div class="container">
 
@@ -266,7 +268,13 @@
             disable: 'mobile'
         });
     </script>
-
+    <script>
+        $(document).ready(function(){
+            $(window).on('load', function(){
+                $('.loader-box').fadeOut('slow');
+            });
+        });
+    </script>
 </body>
 
 </html>
