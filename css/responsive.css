@@ -74,15 +74,36 @@
     .get-in{
         margin-top: 30px;
     }
+    .nav-regst-btn a button {
+        float: left;
+        margin-top: 10px;
+    }
+    .navbar{
+        position: absolute;
+        top: 25px;
+        left: 10px;
+        right: 10px;
+    }
+    .ticket-box{
+        display: flex;
+    justify-content: space-between;
+    }
+    .ticket-box h2{
+        margin-bottom: 0px;
+    }
+    .ticket-box h4 span{
+        width: auto;
+    }
+    .register-box-div{
+        margin-top: 110px;
+    }
 
 }
 
 @media (max-width: 767px) {
     .navbar {
-        padding: 12px 0px;
-        position: absolute;
-        width: 94%;
-        top: 40px;
+        padding: 5px 0px 8px;
+        top: 15px;
          z-index: 1000 !important;
     }
     .map-main-2 iframe {
@@ -94,7 +115,7 @@
         font-size: 35px;
     }
     .cermonies {
-        margin-top: 120px;
+        margin-top: 105px;
     }
     .date-time {
         display: flex !important;
@@ -234,9 +255,20 @@
         height: 22px;
     }
     .navbar-brand img {
-        width: 100px;
+        width: 145px;
         margin-right: 50px;
         padding-left: 10px;
+    }
+    .resp-width{
+        width: 100% !important;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .resp-width .nav-link{
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 14px;
+        padding: 5px 0px;
     }
     .navbar-toggler {
         border: 0px;
@@ -249,6 +281,7 @@
         background-size: cover !important;
         height: 370px;
         overflow: hidden;
+        background-position: 50%;
     }
     .inner-heading h1 {
         font-size: 35px;
@@ -300,6 +333,12 @@
     }
     .nav .book-button {
         margin-top: 10px;
+        margin-left: 10px;
+    }
+    .book-button{
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 14px;
     }
     .registr-btn {
         margin-top: 17px;
@@ -345,6 +384,130 @@
     .tickt-modal-head {
         margin-bottom: 15px;
         margin-top: 10px !important;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .date-time h3 {
+        font-size: 18px;
+    }
+    .social-icons i, .social-icons .fa-twitter {
+        width: 42px;
+        height: 42px;
+    }
+    .blue-bg h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .sponsor-maindiv {
+        padding: 15px 0px 0px;
+    }
+    .sponsor-maindiv h3{
+        font-size: 22px;
+    margin-bottom: 15px;
+    }
+    .sponsor-div {
+        margin: 0px 0px 15px;
+    }
+    .sponsor-logo-box {
+        height: 90px;
+        padding: 25px;
+    }
+    .contact-section {
+        padding: 0px 0px 10px 0px;
+    }
+    .venue{
+        padding: 20px;
+    }
+    .venue h2 {
+        font-size: 28px;
+    }
+    .venue h6{
+        font-size: 15px;
+    }
+    .when-h3{
+        font-size: 23px;
+    }
+    .when-cntnd h3{
+        font-size: 15px;
+    }
+    .location {
+        font-size: 16px;
+    }
+    #contact {
+        padding: 20px;
+    }
+    #contact h3 {
+        font-size: 28px;
+    }
+    #contact h4 {
+        font-size: 15px;
+    }
+    .get-in label {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .icons{
+        padding-top: 30px;
+    }
+    .inner-heading h1 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .agenda-section {
+        padding: 40px 0px !important;
+    }
+    .agenda-col2 .agenda-details{
+        padding: 15px 20px;
+    }
+    .agenda-col2 .agenda-details h5 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 23px;
+    }
+    .ticket-box{
+        display: block;
+        padding: 15px 20px;
+    }
+    .register-box-div {
+        margin-top: 60px;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+    .register-head h2 {
+        font-size: 28px;
+    }
+    .ticket-box h2 {
+        margin-bottom: 15px;
+    }
+    .ticket-box h4 span {
+        width: 80px;
+    }
+    .registr-btn {
+        margin-top: 10px;
+    }
+    .adrss-boxes h5{
+        margin-bottom: 5px;
+    }
+    .tickt-descrptn p{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    .footer-1 {
+        padding-bottom: 25px;
+    }
+    .copyright{
+        margin-top: 20px;
+    font-weight: 300;
+    }
+    .ticket-box h4{
+        margin-bottom: 10px;
     }
 }
 

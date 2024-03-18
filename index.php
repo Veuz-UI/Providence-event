@@ -26,12 +26,12 @@
             <div class="date-time d-flex align-items-center justify-content-center" data-aos="fade-up">
                 <div class="d-flex align-items-center c-clndr">
                     <i class="fa-regular fa-calendar"></i>
-                    <h3>Sep 28, 2023 - Sep 30</h3>
+                    <h3>March 25, 2024 - March 27, 2024</h3>
                 </div>
-                <div class="d-flex align-items-center c-clock">
+                <!-- <div class="d-flex align-items-center c-clock">
                     <i class="fa-regular fa-clock"></i>
                     <h3>08:00 AM</h3>
-                </div>
+                </div> -->
 
 
             </div>
@@ -61,7 +61,7 @@
                             <div class="col-lg-6">
                                 <div class="blue-bg h-100">
                                     <div class="content" data-aos="fade-right" data-aos-duration="1000">
-                                        <h5>Veuz Events</h5>
+                                        <h5>Rasam 2k24</h5>
                                         <h2>Why attend<span>?</span></h2>
                                         <h4>Event With more than a thousand customers</h4>
                                         <p>With more than a thousand plus happy customers, a decade of experience, and a veteran team, we aid you in all your business endeavors. We work with your team to understand your business challenges, and how our technology
