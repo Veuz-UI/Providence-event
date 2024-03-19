@@ -109,8 +109,8 @@
                     </div>
                     <div class="col-xl-3 col-lg-6 mt-3">
                         <div class="adrss-boxes h-100 d-flex justify-content-center align-items-center flex-column">
-                            <h5>SHARE</h5>
-                            <p>Find out what people see and say about this event, and join the conversation.</p>
+                            <h5>SOCIAL MEDIA</h5>
+                            <!-- <p>Find out what people see and say about this event, and join the conversation.</p> -->
                             <div class="social-icons d-flex justify-content-center">
                                  <a href="https://www.facebook.com/theprovidencecollege">  <i class="fa-brands fa-facebook" style="color: #263238;"></i></a>
                 <a href="https://www.linkedin.com/school/providencece">   <i class="fa-brands fa-linkedin" style="color: #263238;"></i></a>
