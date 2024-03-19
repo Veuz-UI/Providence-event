@@ -187,6 +187,8 @@ body {
     color: #222;
     border-radius: 10px 0px 0px 10px;
     padding: 80px 80px;
+    display: flex;
+    align-items: center;
 }
 
 .img-box {
@@ -211,7 +213,8 @@ body {
 
 .blue-bg h2 {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: 25px;
 }
 
 .blue-bg h4 {
@@ -1105,7 +1108,7 @@ fieldset {
     margin: 0 auto;
     padding: 16px 25px;
     border-radius: 0px 0px 10px 10px;
-    width: 40%;
+    width: 70%;
 }
 
 .ticket-card .ticket-head h2 {
@@ -1135,6 +1138,7 @@ fieldset {
 .ticket-body h6 {
     color: #888;
     margin-bottom: 12px;
+    font-weight: 300;
 }
 
 .ticket-body h6 i {
@@ -1693,3 +1697,183 @@ fieldset {
   .qty-container .qty-btn-plus:focus{
     box-shadow: none;
   }
+
+  .dang-alert{
+    color: #fff;
+    background-color: #de3333;
+    border-color: #de3333;
+    z-index: 999999999;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    padding: 5px;
+    box-shadow: 0px 0px 28px rgba(84, 80, 80, 0.3);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 25px;
+}
+
+.dang-alert img{
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 30px;
+    border: 2px solid #fff;
+}
+
+.dang-alert .alert-close{
+    background-color: #de3333;
+    right: -9px;
+    padding: 0px !important;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 600;
+    border: 1px solid rgb(255 255 255 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.succ-alert {
+    color: #fff;
+    background-color: #04B070;
+    border-color: #04B070;
+    z-index: 999999999;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    padding: 5px;
+    box-shadow: 0px 0px 28px rgba(84, 80, 80, 0.3);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 25px;
+}
+
+.succ-alert img {
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 30px;
+}
+
+.succ-alert .alert-close:hover{
+    background-color: #10a56e;
+}
+
+.dang-alert .alert-close:hover {
+    background-color: #cd2020;
+}
+
+.succ-alert .alert-close {
+    background-color: #04b070;
+    right: -14px;
+}
+
+.succ-alert .alert-close{
+    padding: 0px;
+    position: absolute;
+    right: -9px;
+    width: 22px;
+    height: 22px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 600;
+    border: 1px solid rgb(255 255 255 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blue-bg .d1 {
+    position: absolute;
+    bottom: 0;
+    left: -180px;
+    width: 24%;
+}
+
+.blue-bg .d2{
+    position: absolute;
+    bottom: -6px;
+    right: -100px;
+}
+
+.blue-bg .d3 {
+    position: absolute;
+    bottom: 0;
+    left: 78px;
+}
+
+.agenda-acco .accordion-item{
+ margin-bottom: 15px;
+ border: 0px;
+}
+
+.agenda-acco .accordion-item .accordion-button{
+    color: #222;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 9%);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 15px;
+}
+
+.agenda-acco .accordion-item .accordion-button span{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.agenda-acco .accordion-button:not(.collapsed){
+    background-color: #b2292d;
+    color: white;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 15px;
+    border-radius: 6px;
+}
+
+.agenda-acco .accordion-button:not(.collapsed)::after{
+    filter: invert(1);
+}
+
+.mob-agenda{
+    display: none;
+}
+
+.agenda-acco .accordion-button::after{
+    background-size: 90%;
+    background-position: center;
+}
+
+.agenda-acco .accordion-item:last-child{
+    margin-bottom: 0px !important;
+}
+
+.sponsor-div-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sponsor-div-boxes .sponsor-div{
+    width: 220px;
+}
+
+.banner-box-div .navbar{
+    padding: 16px 20px;
+}

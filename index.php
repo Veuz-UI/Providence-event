@@ -3,8 +3,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="images/favicon.png" rel="icon" />
-    <title>Veuz</title>
+    <link href="images/favicon.svg" rel="icon" />
+    <title>Rasam</title>
     <link rel="stylesheet" href="css/icons.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,99 +15,146 @@
 </head>
 
 <body>
+    <style>
+        .banner-box-div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.banner-box-div video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.banner-box-div .container{
+    position: absolute;
+    top: 20px;
+}
+.banner-box-div .navbar{
+    border: 1px solid rgb(255 255 255 / 10%);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(14px);
+}
+.banner-box-div .nav-link{
+    color: #ffffff;
+}
+.background-all {
+    background-position: bottom;
+}
+.event-img{
+    margin-bottom: 100px;
+}
+.blue-bg{
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+}
+.book-button:hover{
+    color: #222;
+    background-color: #fff;
+}
+.blue-bg {
+    padding: 80px 130px;
+    position: relative;
+    text-align: center;
+}
+    </style>
+
+
+
+
 <div class="loader-box">
-    <img src="images/loader.gif">
+    <img src="images/rasam.gif">
 </div>
-    <div class="background-all">
+    <div class="banner-box-div">
+        <video muted="" autoplay="" poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="images/rasam.mp4" type="video/mp4">
+        </video>
         <div class="container">
-
-            <?php include("header.php")?>
-            <div class="cermonies" data-aos="fade-up">
-                <h1>RASAM</h1>
-            </div>
-            <div class="date-time d-flex align-items-center justify-content-center" data-aos="fade-up">
-                <div class="d-flex align-items-center c-clndr">
-                    <i class="fa-regular fa-calendar"></i>
-                    <h3>March 25, 2024 - March 27, 2024</h3>
-                </div>
-                <!-- <div class="d-flex align-items-center c-clock">
-                    <i class="fa-regular fa-clock"></i>
-                    <h3>08:00 AM</h3>
-                </div> -->
-
-
-            </div>
-            <div class="book-btn-2 d-flex justify-content-center" data-aos="fade-up">
-                <a href="register.php"><button class="book-btn">Book Ticket</button></a>
-            </div>
-            <div class="follow" data-aos="fade-up">
-                <h3>Follow Us</h3>
-            </div>
-            <div class="social-icons d-flex justify-content-center" data-aos="fade-up">
-                <a href="https://www.facebook.com/theprovidencecollege">  <i class="fa-brands fa-facebook" style="color: #263238;"></i></a>
-                <a href="https://www.linkedin.com/school/providencece">   <i class="fa-brands fa-linkedin" style="color: #263238;"></i></a>
-                <a href="https://twitter.com/providencece"> <i class="fa-brands fa-twitter" style="color: #263238;"></i></a>
-                <a href="https://www.instagram.com/providencece/">   <i class="fa-brands fa-instagram" style="color: #263238;"></i></a>
-                <a href="https://www.youtube.com/channel/UCAm705PUEV-Xq5lrE2Dn-fA"><i class="fa-brands fa-youtube" style="color: #263238;"></i></a>
+            <nav class="navbar navbar-expand-lg  main-nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                      <a class="navbar-brand order-first order-md-0 mx-0 margin-header" href="index.php"><img src="images/logow.svg" img-fluid></a>
               
-             
-               
-             
-            </div>
+                      <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                          <ul class="nav navbar-nav w-100 resp-width">
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="index.php">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="agenda.php">Agenda</a>
+                              </li>
+                              <!-- <li class="nav-item">
+                                  <a class="nav-link" href="register.php">Tickets</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="venue.php">Venue</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="sponsors.php">Sponsors</a>
+                              </li> -->
+                          </ul>
+                      </div>
+              
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="nav navbar-nav ms-auto nav-regst-btn">
+                              <a href="register.php">
+                              <button type="button" class="book-button">Register Now</button>
+                              </a>
+                          </ul>
+                      </div>
+            </nav>
+        </div>
+     
+    </div>
 
+    <section class="event-img">
+        <div class="why-attend">
+            <div class="container">
+                <div class="row gx-0">
+                    <div class="col-lg-12">
+                        <div class="blue-bg h-100">
+                            <div class="content" data-aos="fade-up" data-aos-duration="1000">
+                                <h5>Rasam 2k24</h5>
+                                <h2>Why attend<span>?</span></h2>
+                                <p>Attending Rasam at Providence College of Engineering Chengannur, offers a blend of technology and culture, providing a unique platform to showcase talents, learn from experts, and network with peers. It's a chance to immerse yourself in a vibrant atmosphere, explore innovative ideas, and enjoy a diverse range of activities. Plus, it's a great opportunity to connect with like-minded individuals and gain valuable insights for personal and professional growth.</p>
 
-            <section class="event-img">
-                <div class="why-attend">
-                    <div class="container">
-                        <div class="row gx-0">
-                            <div class="col-lg-6">
-                                <div class="blue-bg h-100">
-                                    <div class="content" data-aos="fade-right" data-aos-duration="1000">
-                                        <h5>Rasam 2k24</h5>
-                                        <h2>Why attend<span>?</span></h2>
-                                        <h4>Event With more than a thousand customers</h4>
-                                        <p>With more than a thousand plus happy customers, a decade of experience, and a veteran team, we aid you in all your business endeavors. We work with your team to understand your business challenges, and how our technology
-                                            can help. </p>
-                                        <p>With more than a thousand plus happy customers, a decade of experience, and a veteran team, we aid you in all your business endeavors. We work with your team to understand your business challenges, and how our technology
-                                            can help. </p>
-                                        <p>With more than a thousand plus happy customers, a decade of experience, and a veteran team, we aid you in all your business endeavors. We work with your team to understand your business challenges, and how our technology
-                                            can help. </p>
-
-                                            <div class="sponsor-maindiv">
-                                                <h3>Our Sponsors</h3>
-                                                <div class="row">
-                                                    
-                                                    <div class="col-xl-5 col-lg-4 col-md-6"> 
-                                                        <div class="sponsor-div d-flex justify-content-center align-items-center flex-column">
-                                                            <div class="sponsor-logo-box">
-                                                                <img src="images/jubeerich.svg">
-                                                            </div> 
-                                                          
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-5 col-lg-4 col-md-6"> 
-                                                        <div class="sponsor-div d-flex justify-content-center align-items-center flex-column">
-                                                            <div class="sponsor-logo-box">
-                                                                <img src="images/eventxpro.svg">
-                                                            </div> 
-                                                          
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
+                                    <div class="sponsor-maindiv">
+                                        <h3>Our Sponsors</h3>
+                                        <div class="sponsor-div-boxes">
+                                            
+                                            <div class="sponsor-div d-flex justify-content-center align-items-center flex-column">
+                                                <div class="sponsor-logo-box">
+                                                    <img src="images/jubeerich.svg">
+                                                </div> 
+                                              
                                             </div>
+                                            <div class="sponsor-div d-flex justify-content-center align-items-center flex-column">
+                                                <div class="sponsor-logo-box">
+                                                    <img src="images/eventxpro.svg">
+                                                </div> 
+                                              
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="img-box h-100">
-                                <img src="images/rasam.png" img-fluid="" data-aos="zoom-in" data-aos-duration="1000">
-                                </div>
-                            </div>
+                            <img src="images/d1.svg" alt="" class="d1">
+                            <img src="images/d2.svg" alt="" class="d2">
+                            <img src="images/d3.svg" alt="" class="d3">
+                           
                         </div>
                     </div>
+                  
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
+
+    <div class="background-all">
+  
+        <div class="container">
           
 
             <section class="counter">

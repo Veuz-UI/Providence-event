@@ -3,8 +3,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="images/favicon.png" rel="icon" />
-    <title>Veuz</title>
+    <link href="images/favicon.svg" rel="icon" />
+    <title>Rasam</title>
     <link rel="stylesheet" href="css/icons.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,7 +15,9 @@
 </head>
 
 <body>
-
+<div class="loader-box">
+    <img src="images/rasam.gif">
+</div>
     <div class="background-all-tckt-div">
         <div class="container">
 
@@ -27,65 +29,49 @@
                     <h5>Event Name</h5>
                 </div>
                 <hr class="head-border-line">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h6 class="tickt-day"> <i class="fa-solid fa-calendar"></i>  Day 1</h6>
-                                <div class="ticket-box">
-                                    <h2><img src="images/ticket.svg" alt="">Silver</h2>
-                                    <h4><span>Price</span>: $30.00</h4>
-                                    <h4><span>Quantity</span>:   <div class="qty-container">
-                                        <button class="qty-btn-minus btn-light" type="button"><i
-                                                class="fa fa-minus"></i></button>
-                                        <input type="text" name="qty" value="0" class="input-qty" />
-                                        <button class="qty-btn-plus btn-light" type="button"><i
-                                                class="fa fa-plus"></i></button>
-                                    </div></h4>
-                                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="ticket-card ticket-platinum">
+                            <div class="ticket-head bg-primary">
+                                <h2>Platinum</h2>
                             </div>
-                            <div class="col-lg-12">
-                                <h6 class="tickt-day"> <i class="fa-solid fa-calendar"></i>  Day 2</h6>
-                                <div class="ticket-box">
-                                    <h2><img src="images/ticket.svg" alt="">Silver</h2>
-                                    <h4><span>Price</span>: $30.00</h4>
-                                    <h4><span>Quantity</span>:   <div class="qty-container">
-                                        <button class="qty-btn-minus btn-light" type="button"><i
-                                                class="fa fa-minus"></i></button>
-                                        <input type="text" name="qty" value="0" class="input-qty" />
-                                        <button class="qty-btn-plus btn-light" type="button"><i
-                                                class="fa fa-plus"></i></button>
-                                    </div></h4>
-                                </div>
+                            <h3>Free</h3>
+                            <h5>Sales end on <span>28 Sep 2023</span></h5>
+                            <div class="ticket-body">
+                                <h6><i class="fas fa-check" aria-hidden="true"></i>Includes special access and food.</h6>
                             </div>
-                            <div class="col-lg-12">
-                                <h6 class="tickt-day"> <i class="fa-solid fa-calendar"></i>  Everday</h6>
-                                <div class="ticket-box">
-                                    <h2><img src="images/ticket.svg" alt="">Silver</h2>
-                                    <h4><span>Price</span>: $30.00</h4>
-                                    <h4><span>Quantity</span>:   <div class="qty-container">
-                                        <button class="qty-btn-minus btn-light" type="button"><i
-                                                class="fa fa-minus"></i></button>
-                                        <input type="text" name="qty" value="0" class="input-qty" />
-                                        <button class="qty-btn-plus btn-light" type="button"><i
-                                                class="fa fa-plus"></i></button>
-                                    </div></h4>
-                                </div>
-                            </div>
+                            <button class="register-btn-outline" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
                         </div>
-            
-     
-                        
                     </div>
-                    <div class="col-lg-12">
-                        <div class="registr-btn h-100">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" class="btn btn-success waves-effect waves-light w-sm">
-                             Register
-                            </button>
+                    <div class="col-lg-4">
+                        <div class="ticket-card ticket-silver">
+                            <div class="ticket-head bg-info">
+                                <h2>Silver</h2>
+                            </div>
+                            <h3>Free</h3>
+                            <h5>Sales end on <span>28 Sep 2023</span></h5>
+                            <div class="ticket-body">
+                                <h6><i class="fas fa-check" aria-hidden="true"></i>Includes special access and food.</h6>
+                            </div>
+                            <button class="register-btn-outline" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ticket-card ticket-gold">
+                            <div class="ticket-head bg-pink">
+                                <h2>Gold</h2>
+                            </div>
+                            <h3>Free</h3>
+                            <h5>Sales end on <span>28 Sep 2023</span></h5>
+                            <div class="ticket-body">
+                                <h6><i class="fas fa-check" aria-hidden="true"></i>Includes special access and food.</h6>
+                            </div>
+                            <button class="register-btn-outline" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-3">
+        
+                <div class="row">
                     <div class="col-xl-3 col-lg-6 mt-3">
                         <div class="adrss-boxes h-100 d-flex justify-content-center align-items-center flex-column">
                             <h5>DATE & TIME</h5>
@@ -150,52 +136,68 @@
 
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header tcket-modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">
                         <span></span>
-                        Attandees</h5>
+                        Register</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body tcket-modal-body">
                     <h3 class="tickt-modal-head">
                         <img src="images/ticket.svg" alt="">
-                        <div>Ticket #1 <span>(silver)</span></div>                       
+                        <div>Silver</div>                       
                     </h3>
                     <div class="row gx-3">
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <div class="ticket-modal-form">
                                     <label for="">Name</label>
                                     <input class="form-control" placeholder="Enter name" type="text">
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <div class="ticket-modal-form">
                                     <label for="">Email</label>
                                     <input class="form-control" placeholder="Enter email" type="text">
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <div class="ticket-modal-form">
                                     <label for="">Phone</label>
                                     <input class="form-control" placeholder="Enter phone" type="text">
                             </div>
-                        </div>    
-                        <div class="col-lg-4">
+                        </div>   
+                        <!-- <div class="col-lg-4">
+                            <div class="ticket-modal-form">
+                                    <label for="">Qualification</label>
+                                    <select class="form-control dropdown" id="education" name="education">
+                                        <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                                        <option value="No formal education">No formal education</option>
+                                        <option value="Primary education">Primary education</option>
+                                        <option value="Secondary education">Secondary education or high school</option>
+                                        <option value="GED">GED</option>
+                                        <option value="Vocational qualification">Vocational qualification</option>
+                                        <option value="Bachelor's degree">Bachelor's degree</option>
+                                        <option value="Master's degree">Master's degree</option>
+                                        <option value="Doctorate or higher">Doctorate or higher</option>
+                                    </select>
+                            </div>
+                        </div>  -->
+                        <div class="col-lg-6">
                             <div class="ticket-modal-form">
                                     <label for="">Student Id</label>
                                     <input class="form-control" placeholder="Enter Student Id" type="text">
                             </div>
                         </div>  
-                        <div class="col-lg-4">
+                        <!-- <div class="col-lg-4">
                             <div class="ticket-modal-form">
-                                    <label for="">Staff Name</label>
-                                    <input class="form-control" placeholder="Enter Staff Name" type="text">
+                                    <label for="">Staff Email</label>
+                                    <input class="form-control" placeholder="Enter Staff Email" type="mail">
                             </div>
-                        </div>  
+                        </div>   -->
                     </div>
-                    <hr class="tickt-modal-line">
+                    <!-- <hr class="tickt-modal-line">
                     <h3 class="tickt-modal-head">
                         <img src="images/ticket.svg" alt="">
                         <div>Ticket #2 <span>(general)</span></div>                       
@@ -222,25 +224,54 @@
                         </div>  
                         <div class="col-lg-4">
                             <div class="ticket-modal-form">
+                                    <label for="">Qualification</label>
+                                    <select class="form-control dropdown" id="education" name="education">
+                                        <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                                        <option value="No formal education">No formal education</option>
+                                        <option value="Primary education">Primary education</option>
+                                        <option value="Secondary education">Secondary education or high school</option>
+                                        <option value="GED">GED</option>
+                                        <option value="Vocational qualification">Vocational qualification</option>
+                                        <option value="Bachelor's degree">Bachelor's degree</option>
+                                        <option value="Master's degree">Master's degree</option>
+                                        <option value="Doctorate or higher">Doctorate or higher</option>
+                                    </select>
+                            </div>
+                        </div> 
+                        <div class="col-lg-4">
+                            <div class="ticket-modal-form">
                                     <label for="">Student Id</label>
                                     <input class="form-control" placeholder="Enter Student Id" type="text">
                             </div>
                         </div>  
                         <div class="col-lg-4">
                             <div class="ticket-modal-form">
-                                    <label for="">Staff Name</label>
-                                    <input class="form-control" placeholder="Enter Staff Name" type="text">
+                                    <label for="">Staff Email</label>
+                                    <input class="form-control" placeholder="Enter Staff Email" type="mail">
                             </div>
-                        </div>    
-                    </div>
+                        </div>  
+                    </div> -->
                 </div>
                 <div class="modal-footer d-flex justify-content-start tcket-modal-footer">
-                    <button class="btn btn-success text-uppercase br-50 btn-md" data-bs-target="#add-session" data-bs-toggle="modal" data-bs-dismiss="modal">Save</button>
-                    <button type="button" class="btn btn-light text-uppercase br-50 btn-md" data-bs-target="#add-session" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-arrow-left me-2"></i>Cancel</button>
+                    <button class="btn btn-success text-uppercase br-50 btn-md" data-bs-dismiss="modal" id="saveButton">Save</button>
+                    <button type="button" class="btn btn-light text-uppercase br-50 btn-md" data-bs-dismiss="modal" id="cancelButton">Cancel</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="alert alert-danger alert-dismissible dang-alert" role="alert" style="display: none;">
+            <img src="images/gif-error.gif"> Oops, something went wrong. Please try again later.
+            <button type="button" class="alert-close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">X</span>
+            </button>
+        </div>
+        <div class="alert alert-success alert-dismissible succ-alert" role="alert" style="display: none;">
+            <img src="images/gif-success.gif"> You are successfully checked in.
+            <button type="button" class="alert-close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">X</span>
+            </button>
+        </div>
 
     <script src="js/jquery.js"></script>
 <script src="js/popper.js"></script>
@@ -254,6 +285,13 @@
     <script>
         AOS.init({
             disable: 'mobile'
+        });
+    </script>
+      <script>
+        $(document).ready(function(){
+            $(window).on('load', function(){
+                $('.loader-box').fadeOut('slow');
+            });
         });
     </script>
     <script>
@@ -277,6 +315,26 @@
             }
         });
     </script>
+    <script>
+        $(document).ready(function(){
+            // Function to show success alert and hide danger alert
+            $("#saveButton").click(function(){
+                $(".succ-alert").fadeIn();
+                $(".dang-alert").fadeOut();
+            });
+        
+            // Function to show danger alert and hide success alert
+            $("#cancelButton").click(function(){
+                $(".dang-alert").fadeIn();
+                $(".succ-alert").fadeOut();
+            });
+        
+            // Function to hide alert on close button click
+            $(".alert-close").click(function(){
+                $(this).parent().fadeOut("slow");
+            });
+        });
+        </script>
 </body>
 
 </html>

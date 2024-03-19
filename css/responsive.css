@@ -1,5 +1,7 @@
 @media (max-width: 1600px) {
-
+    .why-attend .container{
+        max-width: 1200px;
+    }
 }
 
 @media (max-width: 1450px) {
@@ -9,6 +11,13 @@
     }
     .resp-width{
         width: 500px !important;
+    }
+    .why-attend .container{
+        max-width: 1000px;
+    }
+    .blue-bg .d1{
+        left: -122px;
+    width: 28%;
     }
 }
 
@@ -36,12 +45,51 @@
     .whr-cntnt, .whn-cntnt{
         padding-left: 10px;
     }
+    .ticket-card .ticket-head h2{
+        font-size: 20px;
+    }
 
 }
 
 @media (max-width: 1200px) {
     .clndr-v, .map-v{
         width: 100%;
+    }
+    .why-attend .container{
+        max-width: 900px;
+    }
+    .blue-bg .d1{
+        left: -122px;
+        width: 31%;
+    }
+    .sponsor-div-boxes .sponsor-div {
+        width: 200px;
+    }
+    .sponsor-logo-box img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ticket-card .ticket-head{
+        width: 70%;
+        padding: 16px 20px;
+    }
+    .why-attend .container {
+        max-width: 800px;
+    }
+    .blue-bg .d3{
+        display: none;
+    }
+    .blue-bg .d1 {
+        left: -102px;
+        width: 34%;
+    }
+    .sponsor-div-boxes .sponsor-div {
+        width: 215px;
+    }
+    .ticket-card .ticket-head h2 {
+        font-size: 18px;
     }
 }
 
@@ -96,6 +144,69 @@
     }
     .register-box-div{
         margin-top: 110px;
+    }
+    .ticket-card .ticket-head h2 {
+        font-size: 20px;
+    }
+    .ticket-card .ticket-head {
+        padding: 12px 15px;
+        width: 70%;
+    }
+    .ticket-body {
+        padding: 0px 12px;
+    }
+    .ticket-body h6 {
+        font-size: 14px;
+    }
+    .register-btn-outline{
+        padding: 4px 25px;
+        font-size: 14px;
+    }
+    .tcket-modal-body{
+        max-height: 500px;
+        overflow-y: auto;
+    }
+    .agenda-tab .nav-link{
+        margin-right: 0px;
+        padding: 10px;
+    }
+    .inner-heading{
+        margin-top: 175px;
+    }
+    .blue-bg .d1{
+        display: none;
+    }
+    .why-attend .container {
+        max-width: 700px;
+    }
+    .blue-bg{
+        padding: 50px 30px 50px 30px !important;
+    text-align: left !important;
+    }
+    .sponsor-div-boxes{
+        justify-content: flex-start;
+    }
+    .blue-bg .d2{
+        display: none;
+    }
+    .banner-box-div .navbar-toggler-icon{
+        filter: invert(1);
+    }
+    .main-nav .navbar-brand{
+        margin-right: 10px !important;
+    }
+    .resp-width .nav-item{
+        margin-left: 15px;
+    }
+    .nav-regst-btn{
+        margin-left: 15px !important;
+    }
+    .ticket-card .ticket-head {
+        padding: 15px 15px;
+        width: 75%;
+    }
+    .banner-box-div .navbar{
+        padding-left: 10px;
     }
 
 }
@@ -509,6 +620,58 @@
     .ticket-box h4{
         margin-bottom: 10px;
     }
+    .ticket-card .ticket-head {
+        padding: 15px 15px;
+        width: 75%;
+    }
+    .ticket-body h6 {
+        font-size: 15px;
+    }
+    .mob-agenda{
+        display: block;
+    }
+    .lap-agenda{
+        display: none;
+    }
+    .agenda-col1 h5{
+        font-size: 18px;
+    }
+    .resp-width .nav-item {
+        margin-left: 0px;
+    }
+    .nav-regst-btn {
+        margin-left: 0px !important;
+        margin-bottom: 10px;
+    }
+    .why-attend .container {
+        max-width: 100%;
+    }
+    .sponsor-div-boxes .sponsor-div {
+        width: 50%;
+    }
+    .sponsor-logo-box {
+        height: 65px;
+        padding: 10px;
+    }
+    .blue-bg {
+        padding: 40px 30px 30px 30px !important;
+    }
+    .event-img {
+        margin-bottom: 60px !important;
+    }
+    .banner-box-div .navbar {
+        padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 11px;
+    padding-bottom: 14px;
+    }
+    .banner-box-div .navbar .navbar-brand{
+        padding: 0px;
+    }
+    .dang-alert, .succ-alert{
+        width: 85%;
+    }
+   
 }
 
 @media only screen and (max-width: 413px) and (min-width: 200px) {}

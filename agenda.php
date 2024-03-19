@@ -3,8 +3,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="images/favicon.png" rel="icon" />
-    <title>Veuz</title>
+    <link href="images/favicon.svg" rel="icon" />
+    <title>Rasam</title>
     <link rel="stylesheet" href="css/icons.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -16,7 +16,9 @@
 </head>
 
 <body>
-
+<div class="loader-box">
+    <img src="images/rasam.gif">
+</div>
     <div class="background-inner">
         <div class="container">
 
@@ -28,8 +30,7 @@
             </div>
 
             <div class="book-btn-2 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="1000">
-                <button class="book-btn">Add to Calendar</button>
-                <button class="book-btn-outline">Print Agenda</button>
+                <button class="book-btn">Print Agenda</button>
             </div>
         </div>
 
@@ -40,7 +41,451 @@
 
 <section class="agenda-section">
     <div class="container">
-        <div class="row">
+        <div class="row mob-agenda">
+            <div class="col-md-12">
+                <div class="accordion agenda-acco" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Day - 1 <span>(Thu, 28 Sep 2023)</span>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="d-flex agenda-timeline">
+                                <ul class="verti-timeline list-unstyled">
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>08:20 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Welcome note</h5>
+                                                    <h6><i class="fas fa-clock"></i>45 Minutes</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>09:15 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Speaking about the politics of the nation related topics</h5>
+                                                    <h6><i class="fas fa-clock"></i>1 Hour 30 Minutes</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>11:00 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Debate about sports</h5>
+                                                    <h6><i class="fas fa-clock"></i>1 Hour</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </li>
+                                   
+                                </ul>
+                               
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Day - 2 <span>(Thu, 28 Sep 2023)</span>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="d-flex agenda-timeline">
+                                <ul class="verti-timeline list-unstyled">
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>08:20 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Welcome note</h5>
+                                                    <h6><i class="fas fa-clock"></i>45 Minutes</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>09:15 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Speaking about the politics of the nation related topics</h5>
+                                                    <h6><i class="fas fa-clock"></i>1 Hour 30 Minutes</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                  
+                                   
+                                </ul>
+                               
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Day - 3 <span>(Thu, 28 Sep 2023)</span>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="d-flex agenda-timeline">
+                                <ul class="verti-timeline list-unstyled">
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>08:20 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Welcome note</h5>
+                                                    <h6><i class="fas fa-clock"></i>45 Minutes</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>09:15 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Speaking about the politics of the nation related topics</h5>
+                                                    <h6><i class="fas fa-clock"></i>1 Hour 30 Minutes</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="event-list">
+                                        <div class="event-timeline-dot">
+                                            <i class="far fa-arrow-alt-circle-right"></i>
+                                        </div>
+                                        <div class="d-flex listing">
+                                            <div class="flex-shrink-0 agenda-col1">
+                                                <h5>11:00 AM</h5>
+                                            </div>
+                                            <div class="flex-grow-1 agenda-col2">
+                                                <div class="agenda-details">
+                                                    <h5>Debate about sports</h5>
+                                                    <h6><i class="fas fa-clock"></i>1 Hour</h6>
+                                                    <h6><i class="fas fa-map-marker-alt"></i>Aishwarya Banquet Hall,calicut</h6>
+                                                    <div class="avatar-group">
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <div class="avatar-xs">
+                                                                    <span class="avatar-title rounded-circle bg-success text-white font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="avatar-group-item">
+                                                            <a href="javascript: void(0);" class="d-inline-block">
+                                                                <img src="images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hash-tags">
+                                                        <a href="#">#it</a>
+                                                        <a href="#">#development</a>
+                                                        <a href="#">#design</a>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </li>
+                                   
+                                </ul>
+                               
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row lap-agenda">
             <div class="col-md-3" data-aos="fade-right" data-aos-duration="3000">
                 <div class="nav agenda-tab flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
@@ -494,13 +939,18 @@
 <script src="js/fontawesome.js"></script>
 <script src="js/aos.js"></script>
 
-</script>
     <script>
         AOS.init({
             disable: 'mobile'
         });
     </script>
-
+  <script>
+        $(document).ready(function(){
+            $(window).on('load', function(){
+                $('.loader-box').fadeOut('slow');
+            });
+        });
+    </script>
 </body>
 
 </html>
