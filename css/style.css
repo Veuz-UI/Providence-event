@@ -1877,3 +1877,6 @@ fieldset {
 .banner-box-div .navbar{
     padding: 16px 20px;
 }
+.reg-btn-mob{
+    display: none;
+}

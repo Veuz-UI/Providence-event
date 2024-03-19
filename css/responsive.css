@@ -208,6 +208,15 @@
     .banner-box-div .navbar{
         padding-left: 10px;
     }
+    .reg-btn-mob{
+        display: block;
+        position: absolute;
+        bottom: 10%;
+    }
+    .reg-btn-mob .book-button{
+        padding: 12px 50px;
+        font-size: 18px;
+    }
 
 }
 
@@ -670,6 +679,10 @@
     }
     .dang-alert, .succ-alert{
         width: 85%;
+    }
+    .reg-btn-mob .book-button {
+        padding: 12px 35px;
+        font-size: 16px;
     }
    
 }

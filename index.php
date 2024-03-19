@@ -107,7 +107,9 @@
                       </div>
             </nav>
         </div>
-     
+        <a href="register.php" class="reg-btn-mob">
+        <button type="button" class="book-button">Register Now</button>
+        </a>
     </div>
 
     <section class="event-img">
