@@ -19,6 +19,9 @@
         left: -122px;
     width: 28%;
     }
+    .banner-box-div{
+        height: 85vh !important;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -48,6 +51,9 @@
     .ticket-card .ticket-head h2{
         font-size: 20px;
     }
+    .banner-box-div{
+        height: 100vh !important;
+    }
 
 }
 
@@ -67,6 +73,9 @@
     }
     .sponsor-logo-box img {
         width: 90%;
+    }
+    .banner-box-div{
+        height: 76vh !important;
     }
 }
 
@@ -90,6 +99,9 @@
     }
     .ticket-card .ticket-head h2 {
         font-size: 18px;
+    }
+    .banner-box-div {
+        height: 48vh !important;
     }
 }
 
@@ -211,11 +223,22 @@
     .reg-btn-mob{
         display: block;
         position: absolute;
-        bottom: 10%;
+        bottom: 3%;
     }
     .reg-btn-mob .book-button{
         padding: 12px 50px;
         font-size: 18px;
+    }
+    .rasam1{
+        display: none;
+    }
+    .rasam2{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+    .banner-box-div {
+        height: 100vh !important;
     }
 
 }
@@ -683,6 +706,9 @@
     .reg-btn-mob .book-button {
         padding: 12px 35px;
         font-size: 16px;
+    }
+    .reg-btn-mob{
+        bottom: 10%;
     }
    
 }

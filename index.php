@@ -22,10 +22,11 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: #000;
 }
 .banner-box-div video {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
 }
 .banner-box-div .container{
@@ -59,6 +60,7 @@
     position: relative;
     text-align: center;
 }
+
     </style>
 
 
@@ -68,9 +70,13 @@
     <img src="images/rasam.gif">
 </div>
     <div class="banner-box-div">
-        <video muted="" autoplay="" poster="img/videoframe.jpg" class="fullscreen-bg__video">
-            <source src="images/rasam.mp4" type="video/mp4">
+        <video muted="" autoplay="" poster="img/videoframe.jpg" class="fullscreen-bg__video rasam1">
+            <source src="images/rasam1.mp4" type="video/mp4">
         </video>
+        <img src="images/rasam2.gif" alt="" class="fullscreen-bg__video rasam2">
+        <!-- <video muted="" autoplay="" poster="img/videoframe.jpg" class="fullscreen-bg__video rasam2">
+            <source src="images/rasam2.mp4" type="video/mp4">
+        </video> -->
         <div class="container">
             <nav class="navbar navbar-expand-lg  main-nav">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,9 +148,9 @@
                                         </div>
                                     </div>
                             </div>
-                            <img src="images/d1.svg" alt="" class="d1">
-                            <img src="images/d2.svg" alt="" class="d2">
-                            <img src="images/d3.svg" alt="" class="d3">
+                            <img src="images/d1.png" alt="" class="d1">
+                            <img src="images/d2.png" alt="" class="d2">
+                            <img src="images/d3.png" alt="" class="d3">
                            
                         </div>
                     </div>
@@ -318,11 +324,18 @@
         });
     </script>
     <script>
-        $(document).ready(function(){
-            $(window).on('load', function(){
-                $('.loader-box').fadeOut('slow');
-            });
-        });
+        // $(document).ready(function(){
+        //     $(window).on('load', function(){
+        //         $('.loader-box').fadeOut('slow');
+        //     });
+        // });
+        $(function () {
+                setTimeout(function () {
+                    // $('.loader-mask').delay(350).fadeOut('slow')
+                    $(".loader-box").hide();
+                }, 2000)
+
+            })
     </script>
 </body>
 

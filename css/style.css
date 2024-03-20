@@ -60,7 +60,6 @@ body {
 }
 
 
-
 /* navbar */
 
 .navbar {
@@ -1878,5 +1877,8 @@ fieldset {
     padding: 16px 20px;
 }
 .reg-btn-mob{
+    display: none;
+}
+.rasam2{
     display: none;
 }
