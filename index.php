@@ -73,7 +73,7 @@
         <video muted="" autoplay="" poster="img/videoframe.jpg" class="fullscreen-bg__video rasam1">
             <source src="images/rasam1.mp4" type="video/mp4">
         </video>
-        <img src="images/rasam2.gif" alt="" class="fullscreen-bg__video rasam2">
+        <img src="images/rasam2.jpg" alt="" class="fullscreen-bg__video rasam2"  id="videoImage">
         <!-- <video muted="" autoplay="" poster="img/videoframe.jpg" class="fullscreen-bg__video rasam2">
             <source src="images/rasam2.mp4" type="video/mp4">
         </video> -->
@@ -336,6 +336,16 @@
                 }, 2000)
 
             })
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var videoImage = document.getElementById("videoImage");
+            var rasam2Image = new Image();
+            rasam2Image.onload = function() {
+                videoImage.src = "images/rasam2.gif";
+            };
+            rasam2Image.src = "images/rasam2.gif";
+        });
     </script>
 </body>
 
